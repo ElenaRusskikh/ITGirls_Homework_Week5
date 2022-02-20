@@ -1,0 +1,83 @@
+p,
+div,
+header,
+main,
+nav,
+section,
+aside,
+footer {
+    border: 1px solid red;
+}
+
+header {
+    flex: 0 0 content;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    min-height: 200vh;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+nav {
+    flex: 0 0 content;
+}
+
+aside {
+    width: 30vh;
+    background-color: rgb(137, 209, 108);
+}
+
+section {
+    flex: 1;
+    background-color: rgb(247, 226, 181);
+}
+
+.section_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section_element {
+    border: 5px;
+}
+
+.section_element_1 {
+    flex: 0 1 45%;
+}
+
+.section_element_2 {
+    flex: 0 1 45%;
+}
+
+.section_element_3 {
+    flex: 0 1 90%;
+}
+
+.section_content {
+    background-color: rgb(240, 196, 100);
+    text-align: center;
+}
+
+.footer_section {
+    display: flex;
+    margin: 0px -5px;
+}
+
+.footer_element {
+    padding: 0px 5px;
+    flex: 0 1 25%;
+}
+
+.footer_content {
+    background-color: rgb(211, 204, 204);
+    text-align: center;
+}
